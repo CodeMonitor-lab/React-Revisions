@@ -6,19 +6,21 @@ const useCount = ()=>{
     return useContext(CounterContext)
 }
 
-const AuthProvider = ()=>{
+const CounterProvider = (props)=>{
     const [count,setCount] = useState('');
     
-    
+    const Increment = () =>(setCount(count-1))
+    const Decrement = ()=>(setCount(count+1))
 
     const value = {
-        count,
-        setCount,
+        count,setCount,
+        Increment,
+        Decrement
     }
 
-    return<AuthProvider.Provider value= {value}  >
-
-    </AuthProvider.Provider>
+    return<useCount.Provider value= {value}  >
+        {props.children}
+    </useCount.Provider>
 }
 
-export default AuthProvider
+export default CounterProvider
