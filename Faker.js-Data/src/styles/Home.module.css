@@ -1,9 +1,0 @@
-.Product_container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    padding: 2rem;
-    grid-gap: 1rem 2rem;
-}
-.products{
-
-}
