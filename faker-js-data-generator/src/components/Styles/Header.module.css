@@ -1,0 +1,23 @@
+.Header_Container{
+    background-color: khaki;
+    width: 100%;
+    height:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header_Container nav ul{
+    display: flex;
+    gap: 2rem;
+}
+.Header_Container li{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+
+    &:hover{
+        color:darkcyan;
+    }
+}
