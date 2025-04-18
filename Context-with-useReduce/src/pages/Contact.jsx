@@ -9,7 +9,7 @@ const Contact = () => {
        </div>
 
         <div  className=' hidden lg:block bg-blue-500 sm:bg-yellow-500 md:bg-green-500 lg:bg-red-500 xl:bg-pink-500 2xl:bg-black  mx-4 '>
-          <h1>hello dear friend</h1>
+          <h1>hello dear friend hh </h1>
         </div>
     </>
   )
