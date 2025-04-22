@@ -69,6 +69,12 @@ const Cards = () => {
       tittle: "I am Creating a Card title",
       para: " this is an cards paragraph Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias modi, facere sequi architecto minus eum iste dolores quod aut corrupti!"
     },
+    {
+      id: 11,
+      img: " https://random-image-pepebigotes.vercel.app/api/swag-wallpaper ",
+      tittle: "I am Creating a Card title",
+      para: " this is an cards paragraph Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias modi, facere sequi architecto minus eum iste dolores quod aut corrupti!"
+    },
   ]
 
   return (
