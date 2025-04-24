@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './pages/Home'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
+import CardDetail from './components/CardDetail'
 
 export function PageNotFound(){
     const navigate = useNavigate()
@@ -29,6 +30,10 @@ const Routes = () => {
         {
             path:'/',
             element:<Home/>,
+        },
+        {
+            path:'/post/:id',
+            element:<CardDetail/>
         },
         {
             path:'*',
