@@ -6,7 +6,7 @@ Creating tutorials to help learners understand core web development concepts thr
 
 ## 🚀 Watch Demo Projects
 
-Check out the live demo projects – built using **ReactJS**, **TailwindCSS**, and more, with a focus on clean and modern UI design.
+Check out the live demo projects – built using **ReactJS, NextJs, TailwindCSS**, and more, with a focus on clean and modern UI design.
 
 🔗 [Watch React-Cards-Layout Demo](https://www.linkedin.com/posts/ram-3bb99a297_reactjs-tailwindcss-ux-activity-7320696223152144384-86sO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfe-r8Bfy4ftjq7Fnmq5pFKJOV-O0crV84)
 
