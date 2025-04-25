@@ -1,7 +1,7 @@
 {
-  "homepage": "https://codemonitor-lab.github.io/React-Revisions/React-Cards-Layout/",
   "name": "react-cards-layout",
-  "private": true,
+  "homepage": "https://codemonitor-lab.github.io/React-Revisions/React-Cards-Layout/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
