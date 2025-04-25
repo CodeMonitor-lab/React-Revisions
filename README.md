@@ -24,8 +24,20 @@ This minor project is designed to:
 
 ## 🛠️ Tech Stack
 
-- **ReactJS** – Frontend JavaScript library
-- **TailwindCSS** – Utility-first CSS framework
-- **CSS Modules** – Modular and scoped styling
+Here’s a breakdown of the technologies used in this project:
+
+- **ReactJS** – A JavaScript library for building interactive user interfaces with reusable components.
+- **TailwindCSS** – A utility-first CSS framework for rapidly styling elements without writing custom CSS.
+- **CSS Modules** – A way to write modular and scoped CSS to avoid class name conflicts in large apps.
+- **JavaScript (ES6+)** – Modern JavaScript features used for logic and interactivity.
+- **HTML5** – The standard markup language used to structure the layout of web pages.
+- **Vite** – A fast development server and build tool that speeds up React development (optional, if used).
+- **Git & GitHub** – Version control and project collaboration tools for tracking code changes.
+- **NPM/Yarn** – Package managers used to install and manage third-party libraries and dependencies.
+
+---
+
+💡 *This stack is great for learning how to build scalable, modern frontend applications.*
+
 
 ---
