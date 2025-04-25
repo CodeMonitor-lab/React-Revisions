@@ -18,13 +18,16 @@ const CardDetail = () => {
 
   return (
     <>
-    <main className='bg-red-50 min-w-screen min-h-screen p-5'>
-    <article  className='border-2 p-4 rounded-2xl min-h-screen ' >
-    <p> Post Count: {post.id}</p>
-    <h1 className='text-center font-black text-3xl' >{post.tittle}</h1>
-    <h1 className='text-center mt-4' >{post.Content}</h1>
-    <button onClick={()=>navigate('/')}  className=' text-white font-black bg-sky-700 px-4 py-2  mt-5 rounded hover:bg-sky-600 cursor-pointer' >Go Back!</button>
-    </article>
+    <main className='bg-sky-200 min-w-screen min-h-screen'>
+      <section className='bg-blue-500 min-h-screen p-5 flex  items-center justify-center ' >
+        <article className='p-5 bg-red-400 ' >
+          <p className='mb-5 font-black' > Post Id : {post.id}</p>
+        <img className='w-full  h-80 '  src={post.img} alt="Content-image" loading='lazy' />
+        <h1 className='font-bold text-3xl mt-5 text-black' >{post.tittle}</h1>
+        <p className='text-2xl font-mono pt-2 pb-5' >{post.Content}</p>
+        <button onClick={()=>navigate('/')} className='rounded hover:bg-sky-900 cursor-pointer bg-sky-800 text-white px-4 py-2 ' >|Back...|</button>
+        </article>
+      </section>
     </main>
     </>
   )

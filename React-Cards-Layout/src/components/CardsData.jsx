@@ -36,7 +36,7 @@ const cardsData = [
       img: "https://random-image-pepebigotes.vercel.app/api/random-image",
       tittle: "I am Creating a Card title",
       description: " this is an cards descriptiongraph Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias modi, facere sequi architecto minus eum iste dolores quod aut corrupti!",
-      link:"/ReadPost/id",
+      link:`/ReadPost//id`,
       Content:"While children are struggling to be unique, the world around them is trying all means to make them look like everybody else."
     },
     {
@@ -97,6 +97,5 @@ const cardsData = [
       Content:"This is an Contenetn of this cards layout components"
     },
   ]
-
 
   export default cardsData;

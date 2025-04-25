@@ -10,7 +10,7 @@ const Cards = () => {
   
   const handleReadPost = (id)=>{
     navigate(`/post/${id}`)
-    console.log(id)
+    console.log("post id:",id)
   }
   
   useEffect(()=>{
