@@ -26,14 +26,37 @@ This minor project is designed to:
 
 Here’s a breakdown of the technologies used in this project:
 
+### 📦 Frontend
+
 - **ReactJS** – A JavaScript library for building interactive user interfaces with reusable components.
 - **TailwindCSS** – A utility-first CSS framework for rapidly styling elements without writing custom CSS.
-- **CSS Modules** – A way to write modular and scoped CSS to avoid class name conflicts in large apps.
-- **JavaScript (ES6+)** – Modern JavaScript features used for logic and interactivity.
-- **HTML5** – The standard markup language used to structure the layout of web pages.
-- **Vite** – A fast development server and build tool that speeds up React development (optional, if used).
-- **Git & GitHub** – Version control and project collaboration tools for tracking code changes.
-- **NPM/Yarn** – Package managers used to install and manage third-party libraries and dependencies.
+- **CSS Modules** – Enables scoped and modular CSS, keeping styles isolated to specific components.
+- **JavaScript (ES6+)** – Modern syntax and features to write cleaner and more efficient code.
+- **HTML5** – The foundational markup language for structuring web content.
+- **Vite** – A lightning-fast frontend build tool and dev server (used instead of Create React App).
+
+### ⚙️ Development Tools
+
+- **NPM / Yarn** – Node package managers for installing dependencies and managing project scripts.
+- **Git & GitHub** – Version control system and platform for hosting and collaborating on code.
+- **ESLint & Prettier** – Tools for code linting and formatting to maintain a clean, consistent codebase.
+- **VS Code** – A powerful, extensible code editor for development.
+
+### 🌐 Web APIs & Browser Features
+
+- **Fetch API / Axios** – For making HTTP requests to fetch or send data to/from an API.
+- **LocalStorage / SessionStorage** – For storing data in the browser to persist state across sessions.
+
+### 🧪 Testing (optional but recommended)
+
+- **Jest** – A JavaScript testing framework for unit and integration testing.
+- **React Testing Library** – Tools to test React components in a way that mimics user behavior.
+
+### 📁 Project Structure (optional tools)
+
+- **React Router** – For handling routing and navigation in single-page applications.
+- **Redux / Zustand / Context API** – For managing global application state (if needed).
+
 
 ---
 
