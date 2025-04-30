@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { Input,BtnSubmit } from "./index";
 
 const SignUp = () => {
-  return (
-    <div>SignUp</div>
-  )
-}
+  return <>
+      <main>
+        <BtnSubmit/>
+      </main>
+  </>;
+};
 
-export default SignUp
+export default SignUp;

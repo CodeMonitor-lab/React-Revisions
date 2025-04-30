@@ -1,63 +1,38 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Input, Button } from "./index";
+import { Input,BtnSubmit} from "./index";
 
 const Login = () => {
     return (
         <>
-        <main className="min-h-screen p-3 bg-gray-100 flex flex-col items-center justify-center">
-      <section className="flex flex-col md:flex-row w-full max-w-6xl gap-10 justify-center items-center">
-        <article className="md:w-1/2 text-center md:text-left">
-          <h1 className="text-6xl font-bold text-blue-600">facebook</h1>
-          <p className="text-2xl mt-4 mb-6 font-semibold">
-            Facebook helps you connect and share with the people in your life.
-          </p>
-        </article>
-       <form
-          className="bg-white shadow-md rounded p-5 w-full max-w-md"
-          action="#!"
-        >
-          <div className="space-y-4">
-            <Input
-              type="email"
-              name="email"
-              placeholder="Email address or Phone number"
-              autoComplete="off"
-            />
-            <Input
-              type="password"
-              name="password"
-              placeholder="Password"
-              autoComplete="new-password"
-            />
+        <main className="bg-gray-200 min-w-screen min-h-screen" >
+          <section  className="lg:w-full md:w-full sm:w-full justify-center lg:flex md:flex sm:flex-1/2  lg:pt-20 md:pt-10 gap-4 p-4" >
+            <article className=" pt-20 lg:w-lg sm:w-full" >
+              <h1 className="font-bold text-6xl  pb-2 text-blue-500 ">facebook</h1>
+              <p className="text-2xl  font-bold " >Facebook helps you connect and share with the people in your life.</p>
+            </article>
+            {/* */}
+            <div className="lg:w-md sm:w-full  justify-center mt-10" >
+              <form className=" grid bg-white pb-7 p-4 rounded shadow-2xl  " action="#!">
+                <ul>
+                <Input type='email' placeholder='Email address or phone number'   />
+                <Input type='password' placeholder='Password'   />
+                <BtnSubmit className="bg-green text-white p-3 w-full" type='submit' btnText='Login' />
+                <span><NavLink><li className="mt-4 mb-4 text-center text-md" >Forgot password?</li></NavLink></span>
+                </ul>
+                <hr className="mb-8 text-gray-500  "/>
+                <div className="flex justify-center" >
+                  <NavLink><li className="bg-green-500 list-none px-4 py-3 text-center text-lg font-bold text-white rounded" >Create new account</li></NavLink>
+                </div>
+              </form>
+              {/*  */}
+              <div>
+                <p className=" text-center mt-8"><span className="font-bold" ><NavLink>Create a Page</NavLink></span> for a celebrity, brand or business.</p>
+              </div>
 
-            <button
-              className="bg-blue-600 rounded text-2xl w-full text-center font-bold p-2 text-white"
-              type="submit"
-            >
-              Log in
-            </button>
-
-            <NavLink
-              to="/forgot-password"
-              className="block text-center text-blue-500 mt-3"
-            >
-              Forgotten password?
-            </NavLink>
-
-            <hr className="my-4" />
-
-            <div className="flex justify-center">
-              <NavLink to="/signup">
-                <li className="rounded text-white bg-green-500 list-none px-6 py-3 text-center text-xl font-bold">
-                  Create new account
-                </li>
-              </NavLink>
             </div>
-          </div>
-        </form>
-      </section>
-    </main>
+          </section>
+        </main>
     </>
   );
 };
