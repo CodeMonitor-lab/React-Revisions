@@ -1,11 +1,19 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Input,BtnSubmit } from "./index";
+import { Input,BtnSubmit,DateBirth} from "./index";
 
 const SignUp = () => {
   return <>
       <main>
-        <BtnSubmit/>
+        <section>
+          <div>
+            <Input/>
+            <Input/>
+          </div>
+          <div>
+            <DateBirth/>
+          </div>
+        </section>
       </main>
   </>;
 };
