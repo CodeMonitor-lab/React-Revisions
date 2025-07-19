@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hide Navbar on Scroll</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hide-nav {
+      transform: translateY(-100%);
+      transition: transform 0.3s ease-in-out;
+    }
+    .show-nav {
+      transform: translateY(0);
+      transition: transform 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Navbar -->
+  <header id="navbar" class="fixed top-0 left-0 w-full bg-white shadow z-50 show-nav">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-purple-600">MySite</h1>
+      <nav class="space-x-6">
+        <a href="#home" class="hover:text-purple-600">Home</a>
+        <a href="#about" class="hover:text-purple-600">About</a>
+        <a href="#contact" class="hover:text-purple-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="mt-24 space-y-32 p-10">
+    <section id="home" class="min-h-screen bg-purple-100 rounded p-8">🏠 Home Section</section>
+    <section id="about" class="min-h-screen bg-green-100 rounded p-8">📖 About Section</section>
+    <section id="contact" class="min-h-screen bg-blue-100 rounded p-8">📞 Contact Section</section>
+  </main>
+
+  <!-- Script for Scroll Behavior -->
+  <script>
+    let lastScroll = 0;
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+
+      if (currentScroll <= 0) {
+        navbar.classList.remove('hide-nav');
+        navbar.classList.add('show-nav');
+        return;
+      }
+
+      if (currentScroll > lastScroll) {
+        // Scrolling Down
+        navbar.classList.remove('show-nav');
+        navbar.classList.add('hide-nav');
+      } else {
+        // Scrolling Up
+        navbar.classList.remove('hide-nav');
+        navbar.classList.add('show-nav');
+      }
+
+      lastScroll = currentScroll;
+    });
+  </script>
+
+</body>
+</html>

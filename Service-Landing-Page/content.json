@@ -1,0 +1,78 @@
+{
+    "hero": {
+      "name": "Saurav",
+      "title": "Hi 👋, I'm Saurav",
+      "description": "I'm a Developer who specializes in building dynamic and responsive web applications that deliver seamless user experiences and scalable solutions. I'm passionate about creating user-focused digital products with clean architecture, performance optimization, and modern UI/UX design. I work primarily with JavaScript, MERN Stack, NextJs and TailwindCSS/Shadcn building everything from intuitive front-end interfaces to robust back-end systems.",
+      "buttonText": "Get Started",
+      "image": "../assets/works.jpg"
+    },
+    "navigation": {
+      "logo": "../assets/icons/ui.svg",
+      "menuItems": [
+        { "label": "Home", "href": "#Home" },
+        { "label": "About", "href": "#About" },
+        { "label": "Services", "href": "#Services" },
+        { "label": "Contact us", "href": "#Contact" }
+      ]
+    },
+    "about": {
+      "title": "About us",
+      "image": "../assets/pic10.jpg",
+      "icon": "../assets/me.png",
+      "description": "I'm a Developer who specializes in building dynamic and responsive web applications that deliver seamless user experiences and scalable solutions. I'm passionate about creating user-focused digital products with clean architecture, performance optimization, and modern UI/UX design. I work primarily with JavaScript, MERN Stack, NextJs and TailwindCSS/Shadcn building everything from intuitive front-end interfaces to robust back-end systems.",
+      "buttonText":"Visit Profile"
+    },
+    "services": {
+      "title": "Our Service",
+      "description": "We offer comprehensive Full Stack Development services tailored to build scalable, secure, and high-performing web applications. From intuitive front-end interfaces to powerful back-end infrastructures, our full-stack solutions are crafted to deliver seamless user experiences and robust business functionality.",
+      "items": [
+        {
+          "title": "Front-End Development",
+          "description": "Building beautiful, responsive user interfaces.",
+          "icon": "assets/icons/webDesign.svg"
+        },
+        {
+          "title": "Back-End Development",
+          "description": "Designing scalable and secure server-side applications.",
+          "icon": "assets/icons/backend.svg"
+        },
+        {
+          "title": "UI/UX Design",
+          "description": "Crafting seamless and user-friendly experiences.",
+          "icon": "assets/icons/ux.svg"
+        }
+      ]
+    },
+    "work": [
+      {
+        "title": "My Awesome Project",
+        "description": "A dynamic and scalable web app I built using MERN Stack.",
+        "image": "../assets/team.jpg",
+        "buttonText": "View Project",
+        "name": "Awesome Project"
+      },
+      {
+        "title": "My Awesome Project",
+        "description": "A dynamic and scalable web app I built using MERN Stack.",
+        "image": "../assets/peaky.jpg",
+        "buttonText": "View Project",
+        "name": "Awesome Project"
+      },
+      {
+        "title": "My Awesome Project",
+        "description": "A dynamic and scalable web app I built using MERN Stack.",
+        "image": "../assets/code.jpg",
+        "buttonText": "View Project",
+        "name": "Awesome Project"
+      }
+    ],
+    "contact": {
+      "title": "Contact us!",
+      "description": "Coming soon..."
+    },
+    "footer": {
+      "title": "Footer",
+      "description": "Coming soon..."
+    }
+  }
+  

@@ -1,0 +1,24 @@
+{
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "icon": "../assets/icons/github.svg"
+    },
+    {
+      "name": "Twitter",
+      "icon": "../assets/icons/twitter.svg"
+    },
+    { 
+        "icon": "../assets/icons/linkdin.svg",
+        "name": "LinkedIn"
+    },
+    { 
+        "icon": "../assets/icons/facebook.svg",
+        "name": "Facebook"
+    },
+    { 
+        "icon": "../assets/icons/instagram.svg",
+        "name": "Instagram"
+    }
+  ]
+}

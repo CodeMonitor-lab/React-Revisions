@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="font-sans bg-white text-gray-900">
+    <!-- Hero Section -->
+    <header class="bg-gray-00 shadow-md shadow-gray-300">
+      <nav class="flex flex-col justify-center px-10 py-3">
+        <!-- logo and social links -->
+        <section class="flex items-center justify-between">
+          <div
+            class="flex items-center justify-center p-[1.5px] shadow-md shadow-gray-400 rounded-full"
+          >
+            <img class="w-10" src="../assets/icons/ui.svg" alt="" />
+          </div>
+          <ul id="socialLinks" class="flex gap-4"></ul>
+        </section>
+        <!-- navbar -->
+        <section id="Home" class="flex justify-center items-center">
+          <ul class="font-bold flex gap-4">
+            <li class="cursor-pointer hover:text-gray-600 ease-in">
+              <a href="#Home">Home</a>
+            </li>
+            <li class="cursor-pointer hover:text-gray-600 ease-in">
+              <a href="#About">About</a>
+            </li>
+            <li class="cursor-pointer hover:text-gray-600 ease-in">
+              <a href="#Services">Services</a>
+            </li>
+            <li class="cursor-pointer hover:text-gray-600 ease-in">
+              <a href="#Contact">Contact us</a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+      <!-- Hero section -->
+      <section class="border-t-3 border-amber-500">
+        <article id="hero" class="px-24 py-10"></article>
+      </section>
+    </header>
+
+    <!-- main section -->
+    <main class="px-40 py-10 grid grid-cols-1 gap-10">
+      <!-- About Us -->
+      <section class="border-1 border-gray-300 shadow-md rounded-md p-10">
+        <article id="about"></article>
+      </section>
+      <!-- Our Services -->
+      <section>
+        <article
+          id="services"
+          class="p-10 border-1 border-gray-300 shadow-md rounded"
+        ></article>
+      </section>
+      <!-- Our Works -->
+      <section class="border-1 rounded-md border-gray-300 p-10 shadow-md" >
+        <h1 class="pb-4 font-bold text-2xl" >Our Works</h1>
+        <article
+          class="grid grid-cols-3 gap-4"
+          id="work"
+        ></article>
+      </section>
+      <!-- Contact us! -->
+      <section class="flex justify-center">
+        <form class="border-1 p-10 border-gray-300 shadow-md rounded-md" action="#!">
+        <h1 class="pb-4 text-2xl font-bold text-center" >Contact us</h1>
+          <div class="gap-4 w-md flex flex-col">
+            <input
+              class="border-1 outline-none text-md border-gray-300 shadow-md px-4 py-2"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+            />
+            <input
+              class="border-1 outline-none text-md border-gray-300 shadow-md px-4 py-2"
+              type="email"
+              placeholder="Enter Email"
+            />
+            <textarea
+              class="border-1 outline-none h-40 text-md border-gray-300 shadow-md px-6 py-2"
+              name="message"
+              placeholder="your query?"
+            ></textarea>
+            <div>
+              <button
+                class="px-6 py-2 rounded-md text-lg font-bold border-1 border-gray-300 cursor-pointer shadow-md"
+                type="submit"
+              >
+                Send
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- footer -->
+      <section class="flex justify-center">
+        <div class="text-lg font-bold">
+          <span>&copy; All-Rights Reserved 2025</span>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="/js/socialLinks.js"></script>
+    <script src="/js/hero.js"></script>
+    <script src="/js/about.js"></script>
+    <script src="/js/services.js"></script>
+    <script src="/js/works.js"></script>
+  </body>
 </html>
