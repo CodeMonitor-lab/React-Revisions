@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!section) return;
   
         section.innerHTML = `
-          <h1 class="text-3xl font-bold mb-2">${title}</h1>
+          <h1 class="text-2xl font-bold mb-2">${title}</h1>
           <p class="text-lg text-gray-600 mb-6">${description}</p>
           <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             ${items

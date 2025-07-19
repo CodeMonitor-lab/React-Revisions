@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
            <div>
              <h1 class="text-3xl">${hero.title}</h1>
              <p class="text-lg pt-3 pb-4">${hero.description}</p>
-             <button class="bg-gray-300 hover:bg-gray-200 font-bold ease-in px-10 py-2 cursor-pointer rounded-md"type="submit">${hero.buttonText}</button>
+             <button class="px-6 py-2 rounded-md text-lg font-bold border-1 border-gray-300 cursor-pointer shadow-md" type="submit">${hero.buttonText}</button>
            </div>
             <div class="shadow-md shadow-gray-400 p-4">
               <img class="w-auto h-100 rounded-sm" src="${hero.image}" alt=""/>
