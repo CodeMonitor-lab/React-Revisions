@@ -1,0 +1,19 @@
+{
+  "name": "React-Revisions",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "React-Cards-Layout",
+    "facebook-login-clone",
+    "ToggleNav"
+  ],
+  "scripts": {
+    "dev:react-cards-layout": "yarn workspace react-cards-layout dev",
+    "dev:facebook-login-clone": "yarn workspace facebook-login-clone dev",
+    "dev:togglenav": "yarn workspace togglenav dev",
+    "dev": "concurrently -c \"blue,green,magenta\" \"yarn dev:react-cards-layout\" \"yarn dev:facebook-login-clone\" \"yarn dev:togglenav\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

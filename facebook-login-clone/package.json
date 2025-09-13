@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
+    "axios": "^1.12.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.5.1",
     "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
@@ -25,6 +25,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+    "react-router-dom": "^7.9.1",
     "vite": "^6.3.1"
   }
 }
