@@ -9,7 +9,7 @@ const Routes = () => {
             element:<Login/>
         },
         {
-            path:'/SignUp',
+            path:'/signUp',
             element:<SignUp/>
         },
         {},

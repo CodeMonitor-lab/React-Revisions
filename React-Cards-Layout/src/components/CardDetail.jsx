@@ -12,7 +12,7 @@ const CardDetail = () => {
     
     if(!post){
         return <div>
-            <h1 className=' flex justify-center mt-20 text-3xl text-red-800 font-black' >Post Not Available</h1>
+            {/* <h1 className=' flex justify-center mt-20 text-3xl text-red-800 font-black' >Post Not Available</h1> */}
              </div>
     }
 

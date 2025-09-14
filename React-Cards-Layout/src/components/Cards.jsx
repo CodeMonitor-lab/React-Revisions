@@ -4,7 +4,7 @@ import cardsData from './CardsData'
 import { useNavigate } from 'react-router-dom'
 
 const Cards = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate(false);
   const location = useLocation()
   const cardRefs = useRef({})
   
@@ -18,6 +18,7 @@ const Cards = () => {
     if (scrollToId && cardRefs.current[scrollToId]) {
       cardRefs.current[scrollToId].scrollIntoView({ behavior: 'smooth' });
     }
+
   },[location])
 
   return (
